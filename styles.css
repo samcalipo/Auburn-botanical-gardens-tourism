@@ -1,0 +1,123 @@
+/** SAMAD
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: gtaFont;
+    color: black;
+    font-family: 'Arial';
+    max-width: 1000px;
+    background-color: linear
+}
+/* ======================HEADER SECTION =============================== */
+#headerSection{
+    background-image: url("myImages/auburnBg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px;
+    color: #dfbe8c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#headerSection h1{
+    background: #50451a;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    border-radius: 8px; 
+    transition: transform .2s;
+}
+#headerSection h1:hover{
+    transform: scale(1.05);
+    background: #161307;
+}
+
+#headerSection h2 {
+    transition: transform .2s;
+    margin-top: 8px;
+    background: #111806;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+#headerSection h2:hover{
+    transform: scale(1.05);
+    background: #060802;
+}
+/* ================ ACTIVITIES SECTION ===================================== */
+
+#act-sect {
+    margin: 0;
+    padding-bottom: 20px;
+    background: #bbc145;
+    color: #77601e;
+    
+    
+}
+
+#act-sect h3 {
+   padding: 15px 0;
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+.act-col-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.activity-col img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    height: 150px;
+}
+.activity-col h4 {
+    margin-bottom: 5px;
+}
+.activity-col p {
+    font-size: 15px;
+}
+
+/* =============GUIDE SECTION =====================*/
+
+#guide-sect{
+    background: #50451a;
+    width: 500px;
+    display: flex;
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: space-around;
+    color: #dfbe8c;
+    border-radius: 9px;
+    border-bottom: 6px solid #bbc145;
+    transition: transform .4s;
+}
+#guide-sect:hover{
+     transform: scale(1.2);
+     position: relative;
+     top: -20px;
+}
+#guide-sect img{
+    height: 150px;
+    border-radius: 10px;
+}
+
+.guide-text{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    justify-content: space-around
+}
+
